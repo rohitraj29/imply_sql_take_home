@@ -2,6 +2,8 @@
 
 ### 1.**Ranking and Percentiles:** Rank the top 10% of drivers based on their total earnings, considering both fare_amount and tip_amount.
 
+>after analyzing the data dictionary for the dataset NYC Yellow Taxi a discrepancy in the question came up. There is no attribute which can be mapped to the drivers or cabs hence finding income aggregate at the level of drivers is not possible.
+
 
 ### 2.**Payment Type Dynamics:** Determine if there is a significant difference in the average tip amount for credit card payments compared to other payment types.
 ```sql
